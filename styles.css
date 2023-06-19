@@ -1,0 +1,202 @@
+:root{
+    --primecolor:#ff4c68;
+    --font:'Space Grotesk', sans-serif;
+    --font2:'Bebas Neue', sans-serif;
+    --seccolor:#EF8172;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color:var(--primecolor);   
+}
+
+.container {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(0%,-50%);
+    width: 70%;
+    height: 80%;  
+}
+
+.imgcontainer {
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+}
+
+img {
+    height: 100%;  
+}
+
+.text {
+    position: absolute;
+    overflow: hidden; 
+    width: 500px;
+    height:120px ;
+    padding-top: 10px;
+    bottom: 30%;
+    left: -15%;
+    z-index: 999;     
+}
+
+.text h1{
+    top: 100px;
+    font-size: 7vw;
+    font-weight: 700;
+    font-family: var(--font);
+    position: absolute;
+}
+
+.para{
+    position: fixed;
+    overflow: hidden;
+    width: 0%;
+    height: 100px;
+    bottom: 10%;
+    z-index: 999;
+    left: -15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para p{ 
+    font-family: 'Space Grotesk', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: rgb(53, 52, 52);
+}
+
+.social-table{
+    z-index: 1000;
+    right: 5%;
+    bottom: -5%;
+    height: 400px;
+    position: absolute;
+}
+
+.main i{
+    font-size: 50px !important;
+}
+
+footer
+{
+    position: absolute;
+    bottom: -10%;
+    left: 30%;
+    font-weight: 700;
+    font-size: large;
+    color: grey;
+}
+
+.parentmid{
+    height: 120%;
+    width: 100%;
+    background-color: #dadada;
+}
+
+.card1,.card2{
+    margin-top: 50px;
+    border: 7px solid black !important;
+}
+
+.cardsec1{ 
+    display: flex;
+    align-items: first center;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.cardsec2 {
+    position: relative;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.textanime{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url("second.jpg");
+    background-size: cover;  
+}
+
+.textanime h1{
+    font-family:'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #dadada;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); 
+}
+
+.char{
+    transform: translateY(115px);  
+}
+
+.popicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    height: 50%;
+}
+
+.popicon i{
+    font-size: 100px;
+    padding-left: 26px;
+    color: var(--primecolor);
+}
+
+.popicon h2{
+    font-weight: 900 !important;
+    font-family: var(--font);
+}
+
+td{ 
+    padding: 50px;
+}
+
+.backimganime{
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 0%;
+}
+.backimganime img{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+
+}
+.backimganime p{
+    margin-left: 25%;
+    padding-top: 15%;
+    font-family: var(--font2);
+    font-size: large;
+    text-align: center;
+    width: 50%;
+}
+
+
